@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Matt",
+    "lastName": "Barr",
+    "email": "mbarr3@gmail.com",
+    "telephone": "0443456672",
+    "password": "mb123",
+    "subscribe": "Yes"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Comrford",
+    "email": "acomfor3@gmail.com",
+    "telephone": "0443456672",
+    "password": "ac123",
+    "subscribe": "No"
+  },
+  {
+    "firstName": "Anton",
+    "lastName": "Korab",
+    "email": "akorab3@gmail.com",
+    "telephone": "0443456673",
+    "password": "ak123",
+    "subscribe": "Yes"
+  }
+]
