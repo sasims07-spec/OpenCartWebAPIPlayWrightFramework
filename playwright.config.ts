@@ -38,7 +38,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: process.env.BASE_URL,
-    screenshot: "only-on-failure",
+    screenshot: { mode: "only-on-failure", fullPage: true },
     video: "retain-on-failure",
     trace: "on-first-retry",
     headless: !process.env.CI ? false : true,
