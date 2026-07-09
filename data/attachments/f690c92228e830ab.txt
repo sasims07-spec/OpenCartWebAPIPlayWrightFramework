@@ -1,0 +1,74 @@
+[
+  {
+    id: 8542804,
+    name: 'Test User New ab4ebbee',
+    email: 'testuserab4ebbee@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8542803,
+    name: 'Schema Test User 5c971798',
+    email: 'testuser5c971798@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8542801,
+    name: 'UpdateUser412f62c9',
+    email: 'updateuser412f62c9@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8542800,
+    name: 'Test User New 62cbfbcc',
+    email: 'testuser62cbfbcc@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8540128,
+    name: 'Gurdev Nayar',
+    email: 'gurdev_nayar@nienow.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8540124,
+    name: 'Tara Saini',
+    email: 'tara_saini@witting.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8540123,
+    name: 'Chidambaram Kaul',
+    email: 'kaul_chidambaram@damore.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8540122,
+    name: 'Vishwamitra Malik',
+    email: 'vishwamitra_malik@schaefer.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8540120,
+    name: 'Adityanandana Reddy Esq.',
+    email: 'reddy_esq_adityanandana@damore.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8540119,
+    name: 'Bhaswar Rana',
+    email: 'bhaswar_rana@hegmann-stanton.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
+Response status: 200
+Response status text: OK
