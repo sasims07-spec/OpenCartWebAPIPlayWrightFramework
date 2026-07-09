@@ -1,8 +1,0 @@
-{
-  id: 8542908,
-  name: 'Test User New 3cd35ab0',
-  email: 'testuser3cd35ab0@example.com',
-  gender: 'male',
-  status: 'active'
-}
-Created user ID: 8542908
