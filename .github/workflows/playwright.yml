@@ -5,6 +5,8 @@ on:
     branches: [main] # trigger when code is pushed to main branch
   pull_request:
     branches: [main] # trigger when PR is created to main branch
+  schedule:
+    - cron: "30 21 * * 1-4" # Mon-Thu 21:30 UTC (~3:00 AM IST Tue-Fri)
   workflow_dispatch: # manual trigger from GitHub UI
     inputs:
       environment:
@@ -15,6 +17,7 @@ on:
         options:
           - QA
           - stage
+          - dev
 
 permissions:
   contents: write # required for peaceiris/actions-gh-pages to push to gh-pages branch
@@ -33,19 +36,34 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20 # install Node.js version
+          node-version: 24
+          cache: "npm" # caches npm's global download cache across runs
+
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('package-lock.json') }}
+          # cache key rotates only when package-lock.json changes -> browsers stay warm across runs
 
       - name: Install dependencies
         run: npm ci # clean install (faster + reliable for CI)
 
-      - name: Install Playwright browsers
+      - name: Install Playwright browsers (full)
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps chromium
-        # installs browser + required Linux dependencies
+        # first run OR after package-lock change: download browsers + OS deps
+
+      - name: Install Playwright OS deps only (if cached)
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+        # cache hit: browsers already restored, just refresh OS-level deps
 
       - name: Run tests
         run: npx playwright test --project=chromium
         env:
-          # Map GitHub Environment name ("QA" | "stage") -> dotenv filename suffix ("qa" | "stage")
+          # Map GitHub Environment name ("QA" | "stage" | "dev") -> dotenv filename suffix ("qa" | "stage" | "dev")
           # so playwright.config.ts loads config/.env.<ENV>
           ENV: ${{ github.event.inputs.environment == 'QA' && 'qa' || github.event.inputs.environment || 'qa' }}
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -61,7 +79,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-html-report
+          name: playwright-html-report-${{ github.run_id }}
           path: reports/my-html-report/
           retention-days: 30
 
@@ -69,7 +87,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results
+          name: allure-results-${{ github.run_id }}
           path: allure-results/
           retention-days: 30
 
