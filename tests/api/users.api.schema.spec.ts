@@ -6,7 +6,7 @@ import { ApiHelper } from "../../src/api/ApiHelper";
 import { test, expect } from "../../src/fixtures/apifixtures";
 import Ajv from "ajv";
 
-let TOKEN = process.env.API_Token;
+let TOKEN = process.env.API_TOKEN;
 let AUTH_HEADER = { Authorization: `Bearer ${TOKEN}` };
 
 // setup AJV:

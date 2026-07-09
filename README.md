@@ -85,7 +85,7 @@ OC_USERNAME=your-username@example.com
 OC_PASSWORD=your-password
 
 API_BASE_URL=https://gorest.co.in
-API_Token=your-gorest-api-token
+API_TOKEN=your-gorest-api-token
 
 OAUTH_CLIENT_ID=your-spotify-client-id
 OAUTH_CLIENT_SECRET=your-spotify-client-secret
@@ -326,7 +326,7 @@ Injects a pre-configured `ApiHelper` bound to `API_BASE_URL`:
 ```ts
 import { test, expect } from "../../src/fixtures/apifixtures";
 
-const AUTH_HEADER = { Authorization: `Bearer ${process.env.API_Token}` };
+const AUTH_HEADER = { Authorization: `Bearer ${process.env.API_TOKEN}` };
 
 test("Get all users", async ({ apiHelper }) => {
   const response = await apiHelper.get("/public/v2/users", AUTH_HEADER);
@@ -417,7 +417,7 @@ git push -u origin main
 Handled by [.gitattributes](.gitattributes) — the repo enforces LF everywhere. The warning is harmless.
 
 **API tests failing with 401 Unauthorized in CI**
-`API_TOKEN` secret missing or misnamed. Check that the workflow env block maps `API_Token: ${{ secrets.API_TOKEN }}` (note the mixed-case env var name expected by the tests).
+`API_TOKEN` secret missing. Verify the secret is set in **Settings → Secrets and variables → Actions** and that the workflow env block passes it as `API_TOKEN: ${{ secrets.API_TOKEN }}`.
 
 **UI tests failing with `locator.fill: value: expected string, got undefined`**
 `OC_USERNAME` / `OC_PASSWORD` env vars are not loaded. Verify your `config/.env.<ENV>` file exists, or that the CI secrets are set.

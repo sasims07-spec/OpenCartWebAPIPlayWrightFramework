@@ -1,6 +1,6 @@
 import { test, expect } from "../../src/fixtures/apifixtures";
 
-const TOKEN = process.env.API_Token!;
+const TOKEN = process.env.API_TOKEN!;
 const AUTH_HEADER = {
   Authorization: `Bearer ${TOKEN}`,
 };
