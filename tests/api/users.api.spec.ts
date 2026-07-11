@@ -18,17 +18,22 @@ async function createUser(request: APIRequestContext): Promise<number> {
   return (await response.json()).id;
 }
 
-test("@smoke get user test", async ({ request }) => {
+test("get user test", async ({ request }) => {
   let response = await request.get("https://gorest.co.in/public/v2/users/", {
     headers: AUTH_TOKEN,
   });
 
-  let jsonBody = await response.json();
-  console.log(jsonBody);
-
   console.log(`Response status: ${response.status()}`);
   console.log(`Response status text: ${response.statusText()}`);
   expect(response.status()).toBe(200);
+
+  // gorest.co.in sometimes returns an HTML rate-limit / maintenance page.
+  // Only parse JSON after we've confirmed a 200 response.
+  const contentType = response.headers()["content-type"] || "";
+  expect(contentType).toContain("application/json");
+
+  let jsonBody = await response.json();
+  console.log(jsonBody);
 });
 
 test("Post user test", async ({ request }) => {
