@@ -10,7 +10,7 @@ test.beforeEach(async ({ loginPage }) => {
   await loginPage.goToLoginPage();
 });
 
-test("Login page title test", async ({ loginPage }) => {
+test("@smoke Login page title test", async ({ loginPage }) => {
   //page is the default fixture provided by playwright which will create a new browser context and a new page for each test and it will also close the browser after the test is done.
 
   const pageTitle = await loginPage.getPageTitle();

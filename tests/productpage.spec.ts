@@ -9,7 +9,7 @@ test("comp logo exists on product page", async ({ basePage }) => {
   expect(await basePage.isLogoVisible()).toBeTruthy();
 });
 
-test("footer exist on product page", async ({ basePage }) => {
+test("@smoke footer exist on product page", async ({ basePage }) => {
   expect(await basePage.getPageFootersCount()).toBe(16);
 });
 

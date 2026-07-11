@@ -6,7 +6,7 @@ test.beforeEach(async ({ loginPage }) => {
   await loginPage.doLogin("pwtestbatch@open.com", "pw123");
 });
 
-test("Home page title test", async ({ homePage }) => {
+test("@smoke Home page title test", async ({ homePage }) => {
   const homePageTitle = await homePage.getPageTitle();
   console.log(`Home page title: ${homePageTitle}`);
   expect(homePageTitle).toBe("My Account");

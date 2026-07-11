@@ -18,7 +18,7 @@ async function createUser(request: APIRequestContext): Promise<number> {
   return (await response.json()).id;
 }
 
-test("get user test", async ({ request }) => {
+test("@smoke get user test", async ({ request }) => {
   let response = await request.get("https://gorest.co.in/public/v2/users/", {
     headers: AUTH_TOKEN,
   });
