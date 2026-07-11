@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3102","@smoke Home page title test","chromium","2026-07-11","passed","2026-07-11","","homepagefixture.spec.ts","",""
+"","3162","@smoke footer exist on product page","chromium","2026-07-11","passed","2026-07-11","","productpage.spec.ts","",""
+"","2412","@smoke Login page title test","chromium","2026-07-11","passed","2026-07-11","","loginpagefixture.spec.ts","",""
