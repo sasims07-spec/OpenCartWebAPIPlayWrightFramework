@@ -1,0 +1,115 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: api/users.api.spec.ts >> Delete user test
+- Location: tests/api/users.api.spec.ts:79:1
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 201
+Received: 530
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect, APIRequestContext } from "@playwright/test";
+  2  | import { randomUUID } from "node:crypto";
+  3  | 
+  4  | let AUTH_TOKEN = { Authorization: "Bearer 7ac11ffb0d369a56e2d18bb98b39c48550c6235034ff9a03a12f0ef0cafae1b5" };
+  5  | 
+  6  | async function createUser(request: APIRequestContext): Promise<number> {
+  7  |   const id = randomUUID().slice(0, 8);
+  8  |   const response = await request.post("https://gorest.co.in/public/v2/users", {
+  9  |     headers: AUTH_TOKEN,
+  10 |     data: {
+  11 |       name: `Test User New ${id}`,
+  12 |       email: `testuser${id}@example.com`,
+  13 |       gender: "female",
+  14 |       status: "active",
+  15 |     },
+  16 |   });
+> 17 |   expect(response.status()).toBe(201);
+     |                             ^ Error: expect(received).toBe(expected) // Object.is equality
+  18 |   return (await response.json()).id;
+  19 | }
+  20 | 
+  21 | test("@smoke get user test", async ({ request }) => {
+  22 |   let response = await request.get("https://gorest.co.in/public/v2/users/", {
+  23 |     headers: AUTH_TOKEN,
+  24 |   });
+  25 | 
+  26 |   let jsonBody = await response.json();
+  27 |   console.log(jsonBody);
+  28 | 
+  29 |   console.log(`Response status: ${response.status()}`);
+  30 |   console.log(`Response status text: ${response.statusText()}`);
+  31 |   expect(response.status()).toBe(200);
+  32 | });
+  33 | 
+  34 | test("Post user test", async ({ request }) => {
+  35 |   //JS Object to send in the request body
+  36 |   const id = randomUUID().slice(0, 8);
+  37 |   let testData = {
+  38 |     name: `Test User New ${id}`,
+  39 |     email: `testuser${id}@example.com`,
+  40 |     gender: "female",
+  41 |     status: "active",
+  42 |   };
+  43 | 
+  44 |   //JS Object to JSON: Serilization
+  45 |   let response = await request.post("https://gorest.co.in/public/v2/users", {
+  46 |     headers: AUTH_TOKEN,
+  47 |     data: testData,
+  48 |   });
+  49 | 
+  50 |   let jsonBody = await response.json();
+  51 |   console.log(jsonBody);
+  52 |   console.log(`Response status: ${response.status()}`);
+  53 |   console.log(`Response status text: ${response.statusText()}`);
+  54 |   expect(response.status()).toBe(201);
+  55 | });
+  56 | 
+  57 | test("Update user test", async ({ request }) => {
+  58 |   const userId = await createUser(request);
+  59 | 
+  60 |   let testData = {
+  61 |     name: `Test User Updated ${randomUUID().slice(0, 8)}`,
+  62 |     email: `testupdated${randomUUID().slice(0, 8)}@example.com`,
+  63 |     gender: "female",
+  64 |     status: "inactive",
+  65 |   };
+  66 | 
+  67 |   let response = await request.put(`https://gorest.co.in/public/v2/users/${userId}`, {
+  68 |     headers: AUTH_TOKEN,
+  69 |     data: testData,
+  70 |   });
+  71 | 
+  72 |   let jsonBody = await response.json();
+  73 |   console.log(jsonBody);
+  74 |   console.log(`Response status: ${response.status()}`);
+  75 |   console.log(`Response status text: ${response.statusText()}`);
+  76 |   expect(response.status()).toBe(200);
+  77 | });
+  78 | 
+  79 | test("Delete user test", async ({ request }) => {
+  80 |   const userId = await createUser(request);
+  81 | 
+  82 |   let response = await request.delete(`https://gorest.co.in/public/v2/users/${userId}`, {
+  83 |     headers: AUTH_TOKEN,
+  84 |   });
+  85 | 
+  86 |   console.log(`Response status: ${response.status()}`);
+  87 |   console.log(`Response status text: ${response.statusText()}`);
+  88 |   expect(response.status()).toBe(204);
+  89 | });
+  90 | 
+```
