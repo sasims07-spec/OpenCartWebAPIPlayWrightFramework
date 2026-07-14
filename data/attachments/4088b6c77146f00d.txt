@@ -1,3 +1,0 @@
-{ message: 'Authentication failed' }
-Response status: 401
-Response status text: Unauthorized
