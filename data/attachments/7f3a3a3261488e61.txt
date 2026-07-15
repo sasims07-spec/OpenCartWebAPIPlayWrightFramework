@@ -1,0 +1,12 @@
+Response status: APIResponse: 404 Not Found
+  Date: Wed, 15 Jul 2026 22:27:46 GMT
+  Content-Type: text/plain; charset=utf-8
+  Content-Length: 19
+  Connection: keep-alive
+  X-Content-Type-Options: nosniff
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  Cf-Cache-Status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KG2gAlPEHc75y5XEU1qKcN1cffTwQ%2F9fDeKA4up4u8a3Hceo8aZfrnBk89kn%2FSAk%2B%2FowRdbX0rGQXIAmw6ADBQiF3bdNrqaZI6bPlIq0yVDfjPnbIQupcu%2B8vsas3jc%3D"}]}
+  Server: cloudflare
+  CF-RAY: a1bc32479a8aaf4b-LAX
+  alt-svc: h3=":443"; ma=86400

@@ -1,0 +1,85 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: api/users.api.indi.spec.ts >> Delete API - delete a user
+- Location: tests/api/users.api.indi.spec.ts:56:1
+
+# Error details
+
+```
+SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+```
+
+# Test source
+
+```ts
+  1  | import { APIRequestContext } from "@playwright/test";
+  2  | 
+  3  | export class ApiHelper {
+  4  |   private readonly request: APIRequestContext;
+  5  |   private readonly baseUrl: string;
+  6  | 
+  7  |   constructor(request: APIRequestContext, baseUrl: string) {
+  8  |     this.request = request;
+  9  |     this.baseUrl = baseUrl;
+  10 |   }
+  11 |   //Get
+  12 |   public async get(endpoint: string, headers?: Record<string, any>) {
+  13 |     let response = await this.request.get(`${this.baseUrl}${endpoint}`, {
+  14 |       headers: headers,
+  15 |     });
+  16 |     console.log("Response status:", response);
+  17 |     return {
+  18 |       status: response.status(),
+  19 |       statusText: response.statusText(),
+  20 |       body: await response.json(),
+  21 |     };
+  22 |   }
+  23 | 
+  24 |   //POST
+  25 |   public async post(endpoint: string, data: object, headers?: Record<string, any>) {
+  26 |     let response = await this.request.post(`${this.baseUrl}${endpoint}`, {
+  27 |       headers: headers,
+  28 |       data: data,
+  29 |     });
+  30 |     return {
+  31 |       status: response.status(),
+  32 |       statusText: response.statusText(),
+> 33 |       body: await response.json(),
+     |             ^ SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+  34 |     };
+  35 |   }
+  36 | 
+  37 |   //PUT
+  38 |   public async put(endpoint: string, data: object, headers?: Record<string, any>) {
+  39 |     let response = await this.request.put(`${this.baseUrl}${endpoint}`, {
+  40 |       headers: headers,
+  41 |       data: data,
+  42 |     });
+  43 |     return {
+  44 |       status: response.status(),
+  45 |       statusText: response.statusText(),
+  46 |       body: await response.json(),
+  47 |     };
+  48 |   }
+  49 | 
+  50 |   //DELETE
+  51 |   public async delete(endpoint: string, headers?: Record<string, any>) {
+  52 |     let response = await this.request.delete(`${this.baseUrl}${endpoint}`, {
+  53 |       headers: headers,
+  54 |     });
+  55 |     const text = await response.text();
+  56 |     return {
+  57 |       status: response.status(),
+  58 |       statusText: response.statusText(),
+  59 |       body: text ? JSON.parse(text) : null,
+  60 |     };
+  61 |   }
+  62 | }
+  63 | 
+```
