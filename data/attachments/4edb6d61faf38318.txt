@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8551677,
+    name: 'Schema Test User 57ddaa73',
+    email: 'testuser57ddaa73@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8551674,
+    name: 'UpdateUserf1936131',
+    email: 'updateuserf1936131@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8551675,
+    name: 'Test User New 3ba184b5',
+    email: 'testuser3ba184b5@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8551538,
+    name: 'Sharda Sharma',
+    email: 'sharma_sharda@mcdermott.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8551537,
+    name: 'Dakshayani Dutta',
+    email: 'dakshayani_dutta@roob.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8551536,
+    name: 'Rep. Anshula Guneta',
+    email: 'rep_guneta_anshula@gislason.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8551535,
+    name: 'Kanchan Khanna',
+    email: 'khanna_kanchan@shields.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8551534,
+    name: 'Dinakar Mahajan JD',
+    email: 'mahajan_dinakar_jd@smith-parisian.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8551533,
+    name: 'Brahmanandam Malik',
+    email: 'brahmanandam_malik@roberts-stracke.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8551532,
+    name: 'The Hon. Ahalya Mukhopadhyay',
+    email: 'hon_mukhopadhyay_ahalya_the@vonrueden.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
