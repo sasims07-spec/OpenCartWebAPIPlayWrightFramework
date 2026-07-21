@@ -574,7 +574,6 @@ jobs:
           EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
 
       - name: Send Slack Notification
-        if: ${{ env.SLACK_WEBHOOK_URL != '' }}
         uses: 8398a7/action-slack@v3
         with:
           status: custom
