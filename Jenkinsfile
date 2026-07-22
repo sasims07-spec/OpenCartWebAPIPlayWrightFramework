@@ -10,7 +10,6 @@ pipeline {
 
     parameters {
         choice(name: 'ENVIRONMENT', choices: ['QA', 'dev', 'stage', 'Prod'], description: 'Select environment')
-        choice(name: 'BROWSER', choices: ['chromium', 'firefox', 'webkit'], description: 'Select browser')
         choice(name: 'TEST_SUITE', choices: ['all', 'smoke', 'regression', 'api-smoke'], description: 'Select test suite')
     }
 
@@ -46,7 +45,7 @@ pipeline {
         stage('Install Framework') {
             steps {
                 dir('qa-tests') {
-                    git url: 'https://github.com/naveenanimation20/OpenCartWebAPIFramework.git', branch: 'main'
+                    git url: 'https://github.com/sasims07-spec/OpenCartWebAPIPlayWrightFramework.git', branch: 'main'
                     bat 'npm ci'
                     bat 'npx playwright install chromium'
                 }
@@ -58,7 +57,7 @@ pipeline {
             steps {
                 dir('qa-tests') {
                     withCredentials([
-                        usernamePassword(credentialsId: 'dev-credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'dev-credentials', usernameVariable: 'OC_USERNAME', passwordVariable: 'OC_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'dev-base-url', variable: 'BASE_URL'),
                         string(credentialsId: 'api-base-url', variable: 'API_BASE_URL')
@@ -66,12 +65,12 @@ pipeline {
                         bat """
                         set ENV=dev
                         set BASE_URL=%BASE_URL%
-                        set USERNAME=%USERNAME%
-                        set PASSWORD=%PASSWORD%
+                        set OC_USERNAME=%OC_USERNAME%
+                        set OC_PASSWORD=%OC_PASSWORD%
                         set API_BASE_URL=%API_BASE_URL%
                         set API_TOKEN=%API_TOKEN%
 
-                        npx playwright test --project=%BROWSER% --grep @smoke
+                        npx playwright test --project=chromium --grep @smoke
                         """
                     }
                 }
@@ -83,7 +82,7 @@ pipeline {
             steps {
                 dir('qa-tests') {
                     withCredentials([
-                        usernamePassword(credentialsId: 'qa-credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'qa-credentials', usernameVariable: 'OC_USERNAME', passwordVariable: 'OC_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'qa-base-url', variable: 'BASE_URL'),
                         string(credentialsId: 'api-base-url', variable: 'API_BASE_URL')
@@ -91,12 +90,12 @@ pipeline {
                         bat """
                         set ENV=qa
                         set BASE_URL=%BASE_URL%
-                        set USERNAME=%USERNAME%
-                        set PASSWORD=%PASSWORD%
+                        set OC_USERNAME=%OC_USERNAME%
+                        set OC_PASSWORD=%OC_PASSWORD%
                         set API_BASE_URL=%API_BASE_URL%
                         set API_TOKEN=%API_TOKEN%
 
-                        npx playwright test --project=%BROWSER%
+                        npx playwright test --project=chromium
                         """
                     }
                 }
@@ -108,7 +107,7 @@ pipeline {
             steps {
                 dir('qa-tests') {
                     withCredentials([
-                        usernamePassword(credentialsId: 'stage-credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'stage-credentials', usernameVariable: 'OC_USERNAME', passwordVariable: 'OC_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'stage-base-url', variable: 'BASE_URL'),
                         string(credentialsId: 'api-base-url', variable: 'API_BASE_URL')
@@ -116,12 +115,12 @@ pipeline {
                         bat """
                         set ENV=stage
                         set BASE_URL=%BASE_URL%
-                        set USERNAME=%USERNAME%
-                        set PASSWORD=%PASSWORD%
+                        set OC_USERNAME=%OC_USERNAME%
+                        set OC_PASSWORD=%OC_PASSWORD%
                         set API_BASE_URL=%API_BASE_URL%
                         set API_TOKEN=%API_TOKEN%
 
-                        npx playwright test --project=%BROWSER% --grep @smoke
+                        npx playwright test --project=chromium --grep @smoke
                         """
                     }
                 }
@@ -140,7 +139,7 @@ pipeline {
             steps {
                 dir('qa-tests') {
                     withCredentials([
-                        usernamePassword(credentialsId: 'prod-credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                        usernamePassword(credentialsId: 'prod-credentials', usernameVariable: 'OC_USERNAME', passwordVariable: 'OC_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'prod-base-url', variable: 'BASE_URL'),
                         string(credentialsId: 'api-base-url', variable: 'API_BASE_URL')
@@ -148,12 +147,12 @@ pipeline {
                         bat """
                         set ENV=prod
                         set BASE_URL=%BASE_URL%
-                        set USERNAME=%USERNAME%
-                        set PASSWORD=%PASSWORD%
+                        set OC_USERNAME=%OC_USERNAME%
+                        set OC_PASSWORD=%OC_PASSWORD%
                         set API_BASE_URL=%API_BASE_URL%
                         set API_TOKEN=%API_TOKEN%
 
-                        npx playwright test --project=%BROWSER% --grep @smoke
+                        npx playwright test --project=chromium --grep @smoke
                         """
                     }
                 }
