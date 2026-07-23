@@ -66,8 +66,14 @@ pipeline {
         }
 
         // ═════════════════════════════════════════════════
-        // STAGE 3: DEV - SANITY
+        // STAGE 3: DEPLOY TO DEV + SANITY
         // ═════════════════════════════════════════════════
+        stage('Deploy to DEV') {
+            steps {
+                echo "Deploying to DEV... ✅"
+            }
+        }
+
         stage('DEV - Sanity Tests') {
             steps {
                 echo "========================================="
@@ -123,8 +129,14 @@ pipeline {
         }
 
         // ═════════════════════════════════════════════════
-        // STAGE 4: QA - REGRESSION
+        // STAGE 4: DEPLOY TO QA + REGRESSION
         // ═════════════════════════════════════════════════
+        stage('Deploy to QA') {
+            steps {
+                echo "Deploying to QA... ✅"
+            }
+        }
+
         stage('QA - Regression Tests') {
             steps {
                 echo "========================================="
@@ -180,8 +192,14 @@ pipeline {
         }
 
         // ═════════════════════════════════════════════════
-        // STAGE 5: STAGE - SANITY
+        // STAGE 5: DEPLOY TO STAGE + SANITY
         // ═════════════════════════════════════════════════
+        stage('Deploy to STAGE') {
+            steps {
+                echo "Deploying to STAGE... ✅"
+            }
+        }
+
         stage('STAGE - Sanity Tests') {
             steps {
                 echo "========================================="
@@ -242,6 +260,12 @@ pipeline {
         stage('Approval for PROD') {
             steps {
                 input message: 'Deploy to PROD?', ok: 'Yes, Deploy!'
+            }
+        }
+
+        stage('Deploy to PROD') {
+            steps {
+                echo "Deploying to PROD... ✅"
             }
         }
 
