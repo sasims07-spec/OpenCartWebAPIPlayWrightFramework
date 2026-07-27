@@ -1,0 +1,35 @@
+Response status: APIResponse: 200 OK
+  Date: Mon, 27 Jul 2026 22:32:00 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-PcFyCo29IsUS3dsfuFNErA=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"4f7ec91498b329f2fdf43d474ed2540b"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 300
+  x-pagination-total: 2997
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 300
+  x-ratelimit-remaining: 294
+  x-ratelimit-reset: 1
+  x-request-id: 12577a8d-3072-4d6f-806e-1bbcd10bb5ba
+  x-runtime: 0.042110
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9Cl1epE5ElCGsRs2pwVnIzhxKSAty%2Fe1ei6ZY2FnKvBj%2FfxJtJkn2WeK9lQXarLuAkp7U%2B1FUbsDfLSlUMt68NRXQxQW2PdOE1NKg4wRQUMiHa0Hksxpmq%2BLVGi4CZI%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a21f18f8dd5cd641-IAD
+  alt-svc: h3=":443"; ma=86400
