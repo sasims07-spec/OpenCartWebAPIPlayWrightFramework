@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8567982,
+    name: 'Schema Test User 8b143f1b',
+    email: 'testuser8b143f1b@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8567979,
+    name: 'UpdateUser500fcf32',
+    email: 'updateuser500fcf32@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8567980,
+    name: 'Test User New 45a58411',
+    email: 'testuser45a58411@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8566840,
+    name: 'Test User Updated 77e14574',
+    email: 'testupdated003914e1@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8566839,
+    name: 'Test User New 5c0719fc',
+    email: 'testuser5c0719fc@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8566837,
+    name: 'Schema Test User f0739c04',
+    email: 'testuserf0739c04@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8566832,
+    name: 'UpdateUserd2bcce66',
+    email: 'updateuserd2bcce66@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8566833,
+    name: 'Test User New 534f4136',
+    email: 'testuser534f4136@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8564928,
+    name: 'Usha Bhattacharya',
+    email: 'usha_bhattacharya@dubuque-hamill.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8564927,
+    name: 'Tejas Guha',
+    email: 'guha_tejas@doyle-howe.test',
+    gender: 'male',
+    status: 'active'
+  }
+]
