@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8570499,
+    name: 'Schema Test User 507de8c8',
+    email: 'testuser507de8c8@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8570497,
+    name: 'UpdateUserd08122b2',
+    email: 'updateuserd08122b2@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8570496,
+    name: 'Test User New d2a7b46f',
+    email: 'testuserd2a7b46f@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8570463,
+    name: 'Dr. Bhilangana Verma',
+    email: 'dr_verma_bhilangana@fritsch.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8570462,
+    name: 'Deepan Arora Jr.',
+    email: 'arora_jr_deepan@koch-mueller.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8570461,
+    name: 'Swarnalata Joshi',
+    email: 'joshi_swarnalata@metz-ernser.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8570460,
+    name: 'Chaten Talwar',
+    email: 'talwar_chaten@kub.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8570459,
+    name: 'Narinder Gowda',
+    email: 'gowda_narinder@lueilwitz.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8570458,
+    name: 'Amarnath Prajapat',
+    email: 'prajapat_amarnath@crooks-ferry.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8570457,
+    name: 'Amb. Trilochana Marar',
+    email: 'amb_marar_trilochana@tromp.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
