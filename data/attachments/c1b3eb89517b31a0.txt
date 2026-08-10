@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8575062,
+    name: 'Schema Test User e633f65a',
+    email: 'testusere633f65a@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8575059,
+    name: 'UpdateUser5fd476bd',
+    email: 'updateuser5fd476bd@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8575060,
+    name: 'Test User New 86454e34',
+    email: 'testuser86454e34@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8574949,
+    name: 'Deeptendu Pandey II',
+    email: 'ii_pandey_deeptendu@cole.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8574948,
+    name: 'Ekaksh Sethi',
+    email: 'sethi_ekaksh@rippin.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8574947,
+    name: 'Gati Iyengar',
+    email: 'iyengar_gati@berge-cronin.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8574946,
+    name: 'Aalok Kocchar',
+    email: 'kocchar_aalok@oberbrunner.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8574945,
+    name: 'Brahmaanand Kakkar',
+    email: 'brahmaanand_kakkar@west.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8574944,
+    name: 'Shantanu Varma',
+    email: 'varma_shantanu@beatty-price.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8574943,
+    name: 'Dipankar Tandon',
+    email: 'tandon_dipankar@kuvalis-miller.test',
+    gender: 'male',
+    status: 'active'
+  }
+]
