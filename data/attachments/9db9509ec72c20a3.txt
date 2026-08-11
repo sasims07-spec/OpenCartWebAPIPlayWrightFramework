@@ -1,0 +1,8 @@
+{
+  id: 8576006,
+  name: 'Test User New cdc9df1f',
+  email: 'testusercdc9df1f@example.com',
+  gender: 'male',
+  status: 'active'
+}
+Created user ID: 8576006

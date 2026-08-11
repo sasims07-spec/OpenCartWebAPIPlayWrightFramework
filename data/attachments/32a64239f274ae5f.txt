@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8576004,
+    name: 'Schema Test User 2c673e48',
+    email: 'testuser2c673e48@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8575999,
+    name: 'UpdateUserb702be94',
+    email: 'updateuserb702be94@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8576000,
+    name: 'Test User New 83eb46e2',
+    email: 'testuser83eb46e2@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8575065,
+    name: 'Test User Updated e143cf2a',
+    email: 'testupdatedf5334be8@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8575064,
+    name: 'Test User New b4b949c7',
+    email: 'testuserb4b949c7@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8575062,
+    name: 'Schema Test User e633f65a',
+    email: 'testusere633f65a@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8575059,
+    name: 'UpdateUser5fd476bd',
+    email: 'updateuser5fd476bd@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8575060,
+    name: 'Test User New 86454e34',
+    email: 'testuser86454e34@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8574924,
+    name: 'Ojaswini Varman',
+    email: 'varman_ojaswini@wilkinson-wehner.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8574923,
+    name: 'Chandraswaroopa Bharadwaj CPA',
+    email: 'bharadwaj_chandraswaroopa_cpa@runte.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
