@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8585609,
+    name: 'Schema Test User c1a2871f',
+    email: 'testuserc1a2871f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8585606,
+    name: 'UpdateUser3c67b45a',
+    email: 'updateuser3c67b45a@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8585605,
+    name: 'Test User New 01ca905a',
+    email: 'testuser01ca905a@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8585252,
+    name: 'Shashi Bhat',
+    email: 'bhat_shashi@wehner-stark.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8585251,
+    name: 'Sucheta Menon Esq.',
+    email: 'sucheta_esq_menon@mcdermott.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8585250,
+    name: 'Sameer Sethi',
+    email: 'sethi_sameer@reinger-vandervort.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8585249,
+    name: 'Sharmila Achari',
+    email: 'sharmila_achari@waelchi-mosciski.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8585247,
+    name: 'Pres. Ramaa Guneta',
+    email: 'pres_guneta_ramaa@brakus.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8585246,
+    name: 'Giri Joshi',
+    email: 'joshi_giri@murphy.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8585243,
+    name: 'Chapala Achari',
+    email: 'achari_chapala@stracke.test',
+    gender: 'male',
+    status: 'inactive'
+  }
+]

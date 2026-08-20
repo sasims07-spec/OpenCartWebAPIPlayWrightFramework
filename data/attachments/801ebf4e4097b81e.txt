@@ -1,0 +1,7 @@
+{
+  id: 8585606,
+  name: 'UpdateUser3c67b45a',
+  email: 'updateuser3c67b45a@example.com',
+  gender: 'male',
+  status: 'inactive'
+}

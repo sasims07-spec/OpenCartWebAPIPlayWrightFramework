@@ -1,0 +1,107 @@
+Response status: APIResponse: 200 OK
+  Date: Thu, 20 Aug 2026 21:50:12 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-aehF5Dp4dUkWas5/5DnCPw=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"0917ab66719d2f04b0f139cd455040fa"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 294
+  x-pagination-total: 2933
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 300
+  x-ratelimit-remaining: 295
+  x-ratelimit-reset: 1
+  x-request-id: 76305504-349a-4866-8198-dbb35dbbcc79
+  x-runtime: 0.055453
+  x-xss-protection: 0
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=X95De2%2BVx9vSwt%2BRjSStqlwarjCEIYEb7WcFVaLyuNvvjC%2BH2d5KnV8VDwNxvdJNEoir%2FRv2wSFoHRPGdCNzePJHX%2Bkm9VnUFyN6MZn5wehe9m4Q6hbS%2F%2FA9g53%2BaHQ%3D"}]}
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a2e49cbd68b1a1a2-LAX
+  alt-svc: h3=":443"; ma=86400
+[
+  {
+    id: 8585609,
+    name: 'Schema Test User c1a2871f',
+    email: 'testuserc1a2871f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8585606,
+    name: 'UpdateUser3c67b45a',
+    email: 'updateuser3c67b45a@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8585605,
+    name: 'Test User New 01ca905a',
+    email: 'testuser01ca905a@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8585252,
+    name: 'Shashi Bhat',
+    email: 'bhat_shashi@wehner-stark.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8585251,
+    name: 'Sucheta Menon Esq.',
+    email: 'sucheta_esq_menon@mcdermott.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8585250,
+    name: 'Sameer Sethi',
+    email: 'sethi_sameer@reinger-vandervort.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8585249,
+    name: 'Sharmila Achari',
+    email: 'sharmila_achari@waelchi-mosciski.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8585247,
+    name: 'Pres. Ramaa Guneta',
+    email: 'pres_guneta_ramaa@brakus.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8585246,
+    name: 'Giri Joshi',
+    email: 'joshi_giri@murphy.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8585243,
+    name: 'Chapala Achari',
+    email: 'achari_chapala@stracke.test',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
