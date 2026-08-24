@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8590441,
+    name: 'Schema Test User 4cae002f',
+    email: 'testuser4cae002f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8590439,
+    name: 'UpdateUserbda65a32',
+    email: 'updateuserbda65a32@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8590438,
+    name: 'Test User New b280631d',
+    email: 'testuserb280631d@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8587362,
+    name: 'Devesh Joshi',
+    email: 'joshi_devesh@weber.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8587361,
+    name: 'Rev. Anagh Saini',
+    email: 'anagh_rev_saini@conn.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8587360,
+    name: 'Rev. Sarvin Sinha',
+    email: 'sinha_sarvin_rev@kilback.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8587359,
+    name: 'Aagneya Talwar I',
+    email: 'aagneya_talwar_i@collins-vonrueden.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8587358,
+    name: 'Jay Mehrotra',
+    email: 'mehrotra_jay@ryan.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8587357,
+    name: 'Shiv Khanna',
+    email: 'khanna_shiv@lebsack.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8587356,
+    name: 'Chakravarti Joshi',
+    email: 'chakravarti_joshi@haag-auer.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
