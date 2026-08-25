@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8591916,
+    name: 'Schema Test User f86dc8e0',
+    email: 'testuserf86dc8e0@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8591913,
+    name: 'UpdateUserc839c3bf',
+    email: 'updateuserc839c3bf@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8591914,
+    name: 'Test User New 6eb40965',
+    email: 'testuser6eb40965@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8590444,
+    name: 'Test User Updated 440e96f5',
+    email: 'testupdated56f486d9@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8590443,
+    name: 'Test User New a0988245',
+    email: 'testusera0988245@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8590441,
+    name: 'Schema Test User 4cae002f',
+    email: 'testuser4cae002f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8590439,
+    name: 'UpdateUserbda65a32',
+    email: 'updateuserbda65a32@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8590438,
+    name: 'Test User New b280631d',
+    email: 'testuserb280631d@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8587340,
+    name: 'Swami Deshpande',
+    email: 'deshpande_swami@gleason-hoeger.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8587339,
+    name: 'Basanti Khatri',
+    email: 'basanti_khatri@boyer.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
