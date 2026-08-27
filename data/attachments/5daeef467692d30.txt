@@ -1,0 +1,35 @@
+Response status: APIResponse: 200 OK
+  Date: Thu, 27 Aug 2026 00:55:22 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-jHxXxoaY0yFhg9fDg8aQFA=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"562b691ca263f70b568ad17b49086364"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 297
+  x-pagination-total: 2965
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 300
+  x-ratelimit-remaining: 295
+  x-ratelimit-reset: 1
+  x-request-id: b6b8bb19-7bd2-454c-8a6c-a4bb04813918
+  x-runtime: 0.046846
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Za4w%2FU1TYGeij7dm31SWNcK7lrGN3OIYea3vofBPTTi0X5QT1e0IyGkTvRY3ICxXJppVha6wAeMCndCbcG%2FGOXdtcV1Kr0UNW4daPWBJ%2FdaQCL52%2BvIo0cRIZFfXnNA%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a3171c38b85b0c43-DFW
+  alt-svc: h3=":443"; ma=86400

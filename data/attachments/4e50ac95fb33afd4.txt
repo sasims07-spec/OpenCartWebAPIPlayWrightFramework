@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8593861,
+    name: 'Schema Test User 3f10907d',
+    email: 'testuser3f10907d@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8593859,
+    name: 'UpdateUser91f48669',
+    email: 'updateuser91f48669@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8593858,
+    name: 'Test User New ad9cbeb5',
+    email: 'testuserad9cbeb5@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8593334,
+    name: 'Ambar Bhattacharya',
+    email: 'bhattacharya_ambar@nienow.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8593329,
+    name: 'Shrishti Patil III',
+    email: 'iii_patil_shrishti@hamill.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8593328,
+    name: 'Brajesh Joshi',
+    email: 'joshi_brajesh@swift.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8593324,
+    name: 'Bhadra Pilla',
+    email: 'pilla_bhadra@champlin.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8593320,
+    name: 'Vedang Nayar',
+    email: 'nayar_vedang@hahn.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8593319,
+    name: 'Vijay Sinha',
+    email: 'vijay_sinha@dach.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8593318,
+    name: 'Kanishka Kaul',
+    email: 'kaul_kanishka@weimann-hoppe.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]

@@ -1,9 +1,0 @@
-{
-  id: 8591917,
-  name: 'Test User New 369feed5',
-  email: 'testuser369feed5@example.com',
-  gender: 'female',
-  status: 'active'
-}
-Response status: 201
-Response status text: Created
