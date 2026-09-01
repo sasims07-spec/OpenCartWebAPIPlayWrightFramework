@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8597629,
+    name: 'Schema Test User 2677deea',
+    email: 'testuser2677deea@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8597626,
+    name: 'UpdateUserc54732b7',
+    email: 'updateuserc54732b7@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8597627,
+    name: 'Test User New 2f388452',
+    email: 'testuser2f388452@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8596408,
+    name: 'Pushti Agarwal MD',
+    email: 'md_pushti_agarwal@rogahn.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8596404,
+    name: 'Gautami Deshpande',
+    email: 'deshpande_gautami@cummerata-kunze.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8596402,
+    name: 'Siddhi Agarwal',
+    email: 'siddhi_agarwal@mante-hagenes.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8596399,
+    name: 'Deenabandhu Rana',
+    email: 'rana_deenabandhu@ernser-kiehn.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8596398,
+    name: 'Aadrika Bhat',
+    email: 'bhat_aadrika@lemke.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8596396,
+    name: 'Dayaanidhi Bhattathiri DDS',
+    email: 'dayaanidhi_bhattathiri_dds@sporer.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8596395,
+    name: 'Sachin Menon',
+    email: 'sachin_menon@kirlin.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
