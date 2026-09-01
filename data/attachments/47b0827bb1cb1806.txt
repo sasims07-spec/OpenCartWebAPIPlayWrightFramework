@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8599932,
+    name: 'Schema Test User 755b3dd9',
+    email: 'testuser755b3dd9@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8599929,
+    name: 'UpdateUser0a3f3f1c',
+    email: 'updateuser0a3f3f1c@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8599930,
+    name: 'Test User New 694726db',
+    email: 'testuser694726db@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8599828,
+    name: 'Keerti Trivedi',
+    email: 'trivedi_keerti@erdman.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8599827,
+    name: 'Amb. Enakshi Menon',
+    email: 'enakshi_amb_menon@dickens.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8599826,
+    name: 'Tejas Kaul VM',
+    email: 'tejas_kaul_vm@dicki.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8599825,
+    name: 'Kanti Malik',
+    email: 'kanti_malik@walsh.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8599824,
+    name: 'Shresth Rana',
+    email: 'rana_shresth@rath-spencer.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8599823,
+    name: 'Dhanesh Namboothiri DDS',
+    email: 'dds_dhanesh_namboothiri@collier.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8599822,
+    name: 'Abhaya Deshpande',
+    email: 'abhaya_deshpande@kuhic-dietrich.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
