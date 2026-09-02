@@ -1,2 +1,0 @@
-User creds: pwtestbatch@open.com : pw123
-Home page headers: My Account,My Orders,My Affiliate Account,Newsletter

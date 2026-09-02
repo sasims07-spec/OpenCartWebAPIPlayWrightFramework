@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8601073,
+    name: 'Schema Test User e926ede6',
+    email: 'testusere926ede6@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8601071,
+    name: 'UpdateUser288d9a27',
+    email: 'updateuser288d9a27@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8601070,
+    name: 'Test User New 5733520b',
+    email: 'testuser5733520b@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8599937,
+    name: 'Test User Updated 56a8e731',
+    email: 'testupdatedf93cc2ce@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8599935,
+    name: 'Test User New 1fdaf29f',
+    email: 'testuser1fdaf29f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8599932,
+    name: 'Schema Test User 755b3dd9',
+    email: 'testuser755b3dd9@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8599929,
+    name: 'UpdateUser0a3f3f1c',
+    email: 'updateuser0a3f3f1c@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8599930,
+    name: 'Test User New 694726db',
+    email: 'testuser694726db@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8599819,
+    name: 'Niro Reddy',
+    email: 'niro_reddy@okuneva.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8599817,
+    name: 'Mrs. Anil Chaturvedi',
+    email: 'chaturvedi_mrs_anil@champlin.example',
+    gender: 'female',
+    status: 'active'
+  }
+]
