@@ -1,2 +1,0 @@
-User creds: pwtestbatch@open.com : pw123
-Home page title: My Account

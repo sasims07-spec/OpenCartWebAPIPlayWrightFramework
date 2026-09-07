@@ -1,0 +1,2 @@
+User creds: pwtestbatch@open.com : pw123
+Home page headers: New Customer,Returning Customer
