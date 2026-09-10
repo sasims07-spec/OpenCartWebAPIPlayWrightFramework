@@ -1,0 +1,35 @@
+Response status: APIResponse: 200 OK
+  Date: Thu, 10 Sep 2026 23:16:18 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-Cjs1rBdsWswPSjhHtAR0mA=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"85907909198f055bc1aff72d689f819e"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 293
+  x-pagination-total: 2922
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 300
+  x-ratelimit-remaining: 294
+  x-ratelimit-reset: 1
+  x-request-id: 75051cca-246b-4006-9458-999a484b06b7
+  x-runtime: 0.048117
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Msl748c0ohR4Xp8kn8iJfzj%2FSdRKumxqI75A4vUcQcmTU1z38vgNzW%2BrySh2%2FL8tXibNkVQ2xjeO8TcVFkDZ718vU4YAHnOii0S2fyFPfnID6r45%2BAPu4S110ZVfYC8%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a39223bde868ce40-SJC
+  alt-svc: h3=":443"; ma=86400
