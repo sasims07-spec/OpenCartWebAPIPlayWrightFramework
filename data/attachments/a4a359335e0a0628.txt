@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8616122,
+    name: 'Schema Test User 1fc12925',
+    email: 'testuser1fc12925@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8616119,
+    name: 'UpdateUser441dbb9c',
+    email: 'updateuser441dbb9c@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8616120,
+    name: 'Test User New 436fbe74',
+    email: 'testuser436fbe74@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8614821,
+    name: 'Diptendu Gowda',
+    email: 'gowda_diptendu@kling-bernhard.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8614820,
+    name: 'Miss Chandrakin Kocchar',
+    email: 'miss_chandrakin_kocchar@mckenzie.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8614819,
+    name: 'Lai Chopra',
+    email: 'chopra_lai@spencer.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8614818,
+    name: 'Lal Abbott',
+    email: 'lal_abbott@streich.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8614816,
+    name: 'Dhana Abbott',
+    email: 'abbott_dhana@zboncak.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8614815,
+    name: 'Jitender Pillai',
+    email: 'jitender_pillai@brekke.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8614814,
+    name: 'Tanushri Mehra Jr.',
+    email: 'jr_tanushri_mehra@fadel.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
