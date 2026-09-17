@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8625621,
+    name: 'Schema Test User 65de90de',
+    email: 'testuser65de90de@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8625619,
+    name: 'Test User New b65c2405',
+    email: 'testuserb65c2405@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8625618,
+    name: 'UpdateUser413bacdf',
+    email: 'updateuser413bacdf@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8619442,
+    name: 'Test User Updated e11cda59',
+    email: 'testupdated2ba4cb3a@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8619441,
+    name: 'Test User New 98e0fab6',
+    email: 'testuser98e0fab6@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8619439,
+    name: 'Schema Test User b31ea598',
+    email: 'testuserb31ea598@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8619436,
+    name: 'UpdateUser5e8561ea',
+    email: 'updateuser5e8561ea@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8619437,
+    name: 'Test User New 5d6e3dd9',
+    email: 'testuser5d6e3dd9@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8617417,
+    name: 'Test User Updated 28d2d739',
+    email: 'testupdated769d4ac3@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8617416,
+    name: 'Test User New e7499b55',
+    email: 'testusere7499b55@example.com',
+    gender: 'female',
+    status: 'active'
+  }
+]
