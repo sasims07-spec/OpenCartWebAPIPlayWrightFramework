@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8633642,
+    name: 'Schema Test User 441bdba6',
+    email: 'testuser441bdba6@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8633640,
+    name: 'UpdateUser82f02610',
+    email: 'updateuser82f02610@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8633639,
+    name: 'Test User New 06a9140b',
+    email: 'testuser06a9140b@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8626839,
+    name: 'Bhadran Chaturvedi IV',
+    email: 'iv_chaturvedi_bhadran@jones.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8626838,
+    name: 'Dhatri Iyengar',
+    email: 'dhatri_iyengar@gottlieb.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8626836,
+    name: 'Devangana Mukhopadhyay',
+    email: 'mukhopadhyay_devangana@thiel.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8626835,
+    name: 'Chandrabhaga Kakkar VM',
+    email: 'chandrabhaga_kakkar_vm@adams-schamberger.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8626834,
+    name: 'Tanushri Tandon',
+    email: 'tanushri_tandon@hagenes-schmidt.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8626832,
+    name: 'Kamala Patil',
+    email: 'kamala_patil@bogan.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8626831,
+    name: 'Anila Nambeesan',
+    email: 'anila_nambeesan@crist.test',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
