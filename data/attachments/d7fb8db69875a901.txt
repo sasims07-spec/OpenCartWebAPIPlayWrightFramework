@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8634934,
+    name: 'Schema Test User f55011b7',
+    email: 'testuserf55011b7@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8634932,
+    name: 'UpdateUser2028b730',
+    email: 'updateuser2028b730@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8634931,
+    name: 'Test User New b4c232fc',
+    email: 'testuserb4c232fc@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8633645,
+    name: 'Test User Updated 74544ce5',
+    email: 'testupdated5207e85d@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8633644,
+    name: 'Test User New 57899c64',
+    email: 'testuser57899c64@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8633642,
+    name: 'Schema Test User 441bdba6',
+    email: 'testuser441bdba6@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8633640,
+    name: 'UpdateUser82f02610',
+    email: 'updateuser82f02610@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8633639,
+    name: 'Test User New 06a9140b',
+    email: 'testuser06a9140b@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8626814,
+    name: 'Avantika Talwar',
+    email: 'avantika_talwar@stiedemann.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8626813,
+    name: 'Brajesh Dhawan',
+    email: 'dhawan_brajesh@weissnat-waters.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
