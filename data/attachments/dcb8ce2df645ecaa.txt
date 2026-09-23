@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8636222,
+    name: 'Schema Test User 8b3d273f',
+    email: 'testuser8b3d273f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8636219,
+    name: 'UpdateUser694af049',
+    email: 'updateuser694af049@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8636220,
+    name: 'Test User New e43ca33a',
+    email: 'testusere43ca33a@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8635650,
+    name: 'Jaya Naik',
+    email: 'jaya_naik@oconner-vandervort.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8635649,
+    name: 'Amrita Bandopadhyay',
+    email: 'amrita_bandopadhyay@herman.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8635648,
+    name: 'Mukul Johar',
+    email: 'mukul_johar@torp.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8635647,
+    name: 'Kalyani Talwar DC',
+    email: 'talwar_dc_kalyani@kertzmann.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8635646,
+    name: 'Veda Singh',
+    email: 'veda_singh@mckenzie.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8635645,
+    name: 'Gopal Tandon I',
+    email: 'tandon_gopal_i@nienow-jacobi.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8635644,
+    name: 'Chidaakaash Nambeesan',
+    email: 'chidaakaash_nambeesan@reichert-koch.example',
+    gender: 'female',
+    status: 'active'
+  }
+]
