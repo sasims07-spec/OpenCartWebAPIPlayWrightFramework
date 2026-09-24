@@ -1,0 +1,9 @@
+{
+  id: 8637240,
+  name: 'Test User New 47f29e70',
+  email: 'testuser47f29e70@example.com',
+  gender: 'female',
+  status: 'active'
+}
+Response status: 201
+Response status text: Created
