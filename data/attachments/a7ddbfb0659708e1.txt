@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8643280,
+    name: 'Schema Test User df283d09',
+    email: 'testuserdf283d09@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8643278,
+    name: 'UpdateUser7747fef3',
+    email: 'updateuser7747fef3@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8643277,
+    name: 'Test User New 5c11fed9',
+    email: 'testuser5c11fed9@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8642050,
+    name: 'Test User Updated b6e299ea',
+    email: 'testupdated0a435897@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8642049,
+    name: 'Test User New 688e684c',
+    email: 'testuser688e684c@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8642047,
+    name: 'Schema Test User 6d7b6646',
+    email: 'testuser6d7b6646@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8642045,
+    name: 'UpdateUser146602f0',
+    email: 'updateuser146602f0@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8642044,
+    name: 'Test User New e764d9b5',
+    email: 'testusere764d9b5@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8640918,
+    name: 'Anusuya Bandopadhyay II',
+    email: 'ii_anusuya_bandopadhyay@bergnaum.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8640917,
+    name: 'Gatik Tandon',
+    email: 'gatik_tandon@breitenberg.test',
+    gender: 'female',
+    status: 'active'
+  }
+]
