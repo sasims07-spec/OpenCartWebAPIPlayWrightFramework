@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8645809,
+    name: 'Schema Test User b573002d',
+    email: 'testuserb573002d@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8645807,
+    name: 'UpdateUser6254cba6',
+    email: 'updateuser6254cba6@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8645806,
+    name: 'Test User New da4eac60',
+    email: 'testuserda4eac60@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8644664,
+    name: 'Test User Updated 3cf4c4a8',
+    email: 'testupdated53703c25@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8644663,
+    name: 'Test User New e807dd67',
+    email: 'testusere807dd67@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8644661,
+    name: 'Schema Test User e50b5159',
+    email: 'testusere50b5159@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8644659,
+    name: 'UpdateUser2187a4bc',
+    email: 'updateuser2187a4bc@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8644658,
+    name: 'Test User New 5f989173',
+    email: 'testuser5f989173@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8644578,
+    name: 'Lai Arora',
+    email: 'lai_arora@aufderhar-ward.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8644577,
+    name: 'Charuchandra Agarwal',
+    email: 'charuchandra_agarwal@raynor-marks.test',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
