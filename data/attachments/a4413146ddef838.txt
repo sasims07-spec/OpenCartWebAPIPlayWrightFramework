@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8654259,
+    name: 'Schema Test User d5235d4b',
+    email: 'testuserd5235d4b@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8654257,
+    name: 'UpdateUserb982a883',
+    email: 'updateuserb982a883@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8654256,
+    name: 'Test User New 99ad66d6',
+    email: 'testuser99ad66d6@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8651823,
+    name: 'Test User Updated 03bf7a62',
+    email: 'testupdatedb761c150@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8651822,
+    name: 'Test User New 762872bb',
+    email: 'testuser762872bb@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8651820,
+    name: 'Schema Test User 5a34494f',
+    email: 'testuser5a34494f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8651817,
+    name: 'UpdateUser5ade352f',
+    email: 'updateuser5ade352f@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8651818,
+    name: 'Test User New 53c1648e',
+    email: 'testuser53c1648e@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8649259,
+    name: 'Rajinder Pillai',
+    email: 'rajinder_pillai@friesen.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8649258,
+    name: 'Chetanaanand Nehru',
+    email: 'nehru_chetanaanand@kling-dare.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
