@@ -1,0 +1,35 @@
+Response status: APIResponse: 200 OK
+  Date: Thu, 08 Oct 2026 01:07:16 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-HFL/6Lu20n6Hix9W47W2yw=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"7eb7f59c2bd79c67b2a2c1f480a3d7b7"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 294
+  x-pagination-total: 2932
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 300
+  x-ratelimit-remaining: 296
+  x-ratelimit-reset: 1
+  x-request-id: 69c2ecb7-398c-4bab-a601-8792c41f1f0d
+  x-runtime: 0.049194
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=aaN84%2FZ%2FxAt8HI0mfS92glj10rwxukIl0CJ%2FmH0JY1T%2BEoBZ9hT9egUTbzt%2BDvIjJ7Yo7JgaXjyyHRDkZyMUYAMzurUaJ%2BJgMQGW4bWOcpITuIfRvAUK3GsDjPJqo%2BU%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a4713f66ec8e0d89-ATL
+  alt-svc: h3=":443"; ma=86400
