@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8664123,
+    name: 'Schema Test User 1d26a215',
+    email: 'testuser1d26a215@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8664121,
+    name: 'UpdateUsere8bea485',
+    email: 'updateusere8bea485@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8664120,
+    name: 'Test User New 5dc0b0dc',
+    email: 'testuser5dc0b0dc@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8663934,
+    name: 'Vrund Asan',
+    email: 'vrund_asan@batz-rice.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8663933,
+    name: 'Anuraag Joshi',
+    email: 'anuraag_joshi@kshlerin-lakin.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8663932,
+    name: 'Aadrika Pillai',
+    email: 'aadrika_pillai@murphy.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8663931,
+    name: 'Varalakshmi Gill',
+    email: 'varalakshmi_gill@smitham-lang.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8663930,
+    name: 'Mani Mishra',
+    email: 'mani_mishra@mcglynn-runolfsdottir.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8663929,
+    name: 'Akshayakeerti Nayar',
+    email: 'akshayakeerti_nayar@rodriguez.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8663928,
+    name: 'Ganapati Gupta LLD',
+    email: 'ganapati_lld_gupta@effertz.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
