@@ -1,0 +1,35 @@
+Response status: APIResponse: 200 OK
+  Date: Wed, 14 Oct 2026 00:25:18 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-2AXPW/MrWhpLqbavEhxZ6w=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"0a20ba1768dd92851fda51a1e3842b64"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 298
+  x-pagination-total: 2975
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 300
+  x-ratelimit-remaining: 296
+  x-ratelimit-reset: 1
+  x-request-id: 7c55dba5-8ee1-4f12-8e2f-7eb1c54e690f
+  x-runtime: 0.047644
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eXJTX8HCalAMghlI0gkOdnz3WAt9zY9vmph7%2FgBzJc7K%2BpZzPER8ET8t%2FoZnUFPIyyLdz3EhD29tYBOcNVbmjU29h1k7vReaY1HDdFgSTN8PcG0smwTCSJrcjHRkBuI%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a4a27231a82bcc93-MEM
+  alt-svc: h3=":443"; ma=86400
