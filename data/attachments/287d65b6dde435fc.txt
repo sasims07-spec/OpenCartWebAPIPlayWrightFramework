@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8686922,
+    name: 'Schema Test User 239d1c5f',
+    email: 'testuser239d1c5f@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8686920,
+    name: 'UpdateUser27880557',
+    email: 'updateuser27880557@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8686919,
+    name: 'Test User New 227917eb',
+    email: 'testuser227917eb@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8686860,
+    name: 'Avadhesh Kapoor Jr.',
+    email: 'kapoor_jr_avadhesh@crist.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8686859,
+    name: 'Opalina Mahajan',
+    email: 'opalina_mahajan@kirlin.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8686858,
+    name: 'Radha Asan',
+    email: 'radha_asan@prohaska.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8686857,
+    name: 'Gautam Talwar IV',
+    email: 'talwar_iv_gautam@leannon-bahringer.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8686856,
+    name: 'Gajabahu Kaul',
+    email: 'kaul_gajabahu@ebert.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8686855,
+    name: 'Bhagwati Abbott',
+    email: 'abbott_bhagwati@lakin.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8686854,
+    name: 'Shakti Pilla Sr.',
+    email: 'sr_shakti_pilla@morissette.example',
+    gender: 'female',
+    status: 'active'
+  }
+]
