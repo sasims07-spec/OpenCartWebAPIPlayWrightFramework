@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8692383,
+    name: 'Schema Test User 792f1348',
+    email: 'testuser792f1348@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8692380,
+    name: 'UpdateUserd3a74b5f',
+    email: 'updateuserd3a74b5f@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8692381,
+    name: 'Test User New 2763604f',
+    email: 'testuser2763604f@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8690796,
+    name: 'Test User Updated c9326231',
+    email: 'testupdated0d03c5d3@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8690795,
+    name: 'Test User New bf1a742a',
+    email: 'testuserbf1a742a@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8690793,
+    name: 'Schema Test User 728e5ce8',
+    email: 'testuser728e5ce8@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8690791,
+    name: 'Test User New efb3f642',
+    email: 'testuserefb3f642@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8690790,
+    name: 'UpdateUser20b0ef35',
+    email: 'updateuser20b0ef35@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8690771,
+    name: 'Tejas Pandey',
+    email: 'tejas_pandey@hirthe.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8690770,
+    name: 'Sen. Aditya Joshi',
+    email: 'aditya_joshi_sen@hayes-becker.test',
+    gender: 'male',
+    status: 'active'
+  }
+]
