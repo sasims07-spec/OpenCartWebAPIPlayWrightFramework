@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8703736,
+    name: 'Schema Test User ccf1f8b6',
+    email: 'testuserccf1f8b6@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8703734,
+    name: 'UpdateUser0c8d5eb1',
+    email: 'updateuser0c8d5eb1@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8703733,
+    name: 'Test User New 6f88691c',
+    email: 'testuser6f88691c@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8703201,
+    name: 'Radha Desai',
+    email: 'radha_desai_5832@menon.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8703200,
+    name: 'Saanvi Kapoor',
+    email: 'saanvi_kapoor_61756@joshi.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8703198,
+    name: 'Meera Singh',
+    email: 'meera_singh_3370@bhat.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8703197,
+    name: 'Meera Chopra',
+    email: 'meera_chopra_80590@naidu.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8703195,
+    name: 'Sai Mishra',
+    email: 'sai_mishra_95460@nair.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8703194,
+    name: 'Sita Patel',
+    email: 'sita_patel_41973@pillai.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8703193,
+    name: 'Sita Desai',
+    email: 'sita_desai_97822@joshi.example',
+    gender: 'female',
+    status: 'active'
+  }
+]
