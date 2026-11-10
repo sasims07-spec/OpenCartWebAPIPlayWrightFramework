@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8706454,
+    name: 'Schema Test User e65854cc',
+    email: 'testusere65854cc@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8706452,
+    name: 'Test User New dc897678',
+    email: 'testuserdc897678@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8706451,
+    name: 'UpdateUserea36a361',
+    email: 'updateuserea36a361@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8705983,
+    name: 'Gopal Reddy',
+    email: 'gopal_reddy_88295@sharma.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8705982,
+    name: 'Sai Chopra',
+    email: 'sai_chopra_5755@mehta.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8705981,
+    name: 'Kabir Menon',
+    email: 'kabir_menon_35566@desai.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8705980,
+    name: 'Aadhya Rao',
+    email: 'aadhya_rao_74034@menon.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8705979,
+    name: 'Suresh Chopra',
+    email: 'suresh_chopra_45217@das.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8705978,
+    name: 'Deepa Naidu',
+    email: 'deepa_naidu_80713@menon.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8705977,
+    name: 'Kavya Das',
+    email: 'kavya_das_90589@banerjee.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
