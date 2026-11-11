@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8707276,
+    name: 'Schema Test User 8f3f93ac',
+    email: 'testuser8f3f93ac@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8707273,
+    name: 'UpdateUser5cc22dc2',
+    email: 'updateuser5cc22dc2@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8707274,
+    name: 'Test User New ca61d050',
+    email: 'testuserca61d050@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8706457,
+    name: 'Test User Updated 6dab1305',
+    email: 'testupdateda93301e8@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8706456,
+    name: 'Test User New e3d19ad0',
+    email: 'testusere3d19ad0@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8706454,
+    name: 'Schema Test User e65854cc',
+    email: 'testusere65854cc@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8706452,
+    name: 'Test User New dc897678',
+    email: 'testuserdc897678@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8706451,
+    name: 'UpdateUserea36a361',
+    email: 'updateuserea36a361@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8705982,
+    name: 'Sai Chopra',
+    email: 'sai_chopra_5755@mehta.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8705981,
+    name: 'Kabir Menon',
+    email: 'kabir_menon_35566@desai.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
