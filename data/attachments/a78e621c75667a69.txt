@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8710190,
+    name: 'Schema Test User 0f7aa41c',
+    email: 'testuser0f7aa41c@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8710188,
+    name: 'UpdateUsere4d8eb53',
+    email: 'updateusere4d8eb53@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8710187,
+    name: 'Test User New 8e619c9c',
+    email: 'testuser8e619c9c@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8710179,
+    name: 'Kabir Kumar',
+    email: 'kabir_kumar_93540@mehta.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8710178,
+    name: 'Anjali Menon',
+    email: 'anjali_menon_33864@mishra.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8710177,
+    name: 'Rahul Kulkarni',
+    email: 'rahul_kulkarni_34354@naidu.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8710176,
+    name: 'Lakshmi Verma',
+    email: 'lakshmi_verma_45894@patel.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8710175,
+    name: 'Mohan Bhat',
+    email: 'mohan_bhat_29806@sharma.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8710174,
+    name: 'Dhruv Joshi',
+    email: 'dhruv_joshi_76895@kapoor.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8710173,
+    name: 'Vivaan Desai',
+    email: 'vivaan_desai_18962@joshi.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
