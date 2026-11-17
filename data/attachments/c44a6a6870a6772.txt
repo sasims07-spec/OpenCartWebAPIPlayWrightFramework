@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8712940,
+    name: 'Schema Test User 7475ab31',
+    email: 'testuser7475ab31@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8712938,
+    name: 'UpdateUserec8498ee',
+    email: 'updateuserec8498ee@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8712937,
+    name: 'Test User New 743b7f1c',
+    email: 'testuser743b7f1c@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8710193,
+    name: 'Test User Updated 033c594f',
+    email: 'testupdated6f5715af@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8710192,
+    name: 'Test User New 3d1896b8',
+    email: 'testuser3d1896b8@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8710190,
+    name: 'Schema Test User 0f7aa41c',
+    email: 'testuser0f7aa41c@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8710188,
+    name: 'UpdateUsere4d8eb53',
+    email: 'updateusere4d8eb53@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8710187,
+    name: 'Test User New 8e619c9c',
+    email: 'testuser8e619c9c@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8710171,
+    name: 'Aditya Mishra',
+    email: 'aditya_mishra_27500@bhat.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8710170,
+    name: 'Ananya Desai',
+    email: 'ananya_desai_20482@joshi.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
