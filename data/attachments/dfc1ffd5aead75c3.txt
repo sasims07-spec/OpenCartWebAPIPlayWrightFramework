@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8714364,
+    name: 'Schema Test User f8a6a7a2',
+    email: 'testuserf8a6a7a2@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8714362,
+    name: 'UpdateUsere4f2643b',
+    email: 'updateusere4f2643b@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8714361,
+    name: 'Test User New ca58a95f',
+    email: 'testuserca58a95f@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8714313,
+    name: 'Aditya Das',
+    email: 'aditya_das_90805@pillai.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8714312,
+    name: 'Reyansh Chopra',
+    email: 'reyansh_chopra_31944@das.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8714311,
+    name: 'Rohan Agarwal',
+    email: 'rohan_agarwal_67036@rao.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8714310,
+    name: 'Arjun Iyer',
+    email: 'arjun_iyer_99067@banerjee.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8714309,
+    name: 'Tara Mehta',
+    email: 'tara_mehta_13308@kumar.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8714308,
+    name: 'Deepa Desai',
+    email: 'deepa_desai_71920@verma.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8714307,
+    name: 'Vihaan Iyer',
+    email: 'vihaan_iyer_65956@gupta.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
