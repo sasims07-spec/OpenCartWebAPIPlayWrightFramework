@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8720068,
+    name: 'Schema Test User 90ce3ed6',
+    email: 'testuser90ce3ed6@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8720066,
+    name: 'UpdateUserbabc85db',
+    email: 'updateuserbabc85db@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8720065,
+    name: 'Test User New 6eec2f45',
+    email: 'testuser6eec2f45@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8717797,
+    name: 'Test User Updated 7eb00e3d',
+    email: 'testupdated55f752ad@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8717796,
+    name: 'Test User New 41076694',
+    email: 'testuser41076694@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8717794,
+    name: 'Schema Test User bde5af01',
+    email: 'testuserbde5af01@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8717792,
+    name: 'Test User New d6187ffc',
+    email: 'testuserd6187ffc@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8717791,
+    name: 'UpdateUser13eeef50',
+    email: 'updateuser13eeef50@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8717590,
+    name: 'Aditya Menon',
+    email: 'aditya_menon_1405@verma.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8717589,
+    name: 'Tara Menon',
+    email: 'tara_menon_53886@agarwal.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
