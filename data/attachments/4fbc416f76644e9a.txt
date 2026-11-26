@@ -1,0 +1,107 @@
+Response status: APIResponse: 200 OK
+  Date: Thu, 26 Nov 2026 03:40:23 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-jXLu8vApZDv224NirXMswQ=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  deprecation: @1793491200
+  etag: W/"340b5f993fea9766bb99eda12f915c03"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  link: <https://www.gorest.co.in/docs/v2>; rel="deprecation"; type="text/html"
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 301
+  x-pagination-total: 3001
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 300
+  x-ratelimit-remaining: 293
+  x-ratelimit-reset: 1
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HTrgCtvbSaxfW35zQk9ZXWTyD4WIqycd6pTplLAMScCnJ8Egcyh%2FhDLdQN7u0Wzg6U80KWIpIAOqFEfS%2B4v8BLxD37CkKTzJlRU7EJAElg0fsmsCs14XrbC4uTVnZu4%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a605df141e38eb30-SJC
+  alt-svc: h3=":443"; ma=86400
+[
+  {
+    id: 8722349,
+    name: 'Schema Test User 2733f871',
+    email: 'testuser2733f871@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8722346,
+    name: 'UpdateUsera3380d52',
+    email: 'updateusera3380d52@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8722347,
+    name: 'Test User New bb2f480f',
+    email: 'testuserbb2f480f@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8722319,
+    name: 'Kavya Banerjee',
+    email: 'kavya_banerjee_73309@chopra.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8722318,
+    name: 'Arjun Singh',
+    email: 'arjun_singh_50843@kapoor.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8722317,
+    name: 'Saanvi Menon',
+    email: 'saanvi_menon_21735@reddy.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8722316,
+    name: 'Mohan Kulkarni',
+    email: 'mohan_kulkarni_78072@bose.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8722315,
+    name: 'Deepa Singh',
+    email: 'deepa_singh_11931@verma.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8721966,
+    name: 'Nisha Agarwal',
+    email: 'nisha_agarwal_16514@menon.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8721965,
+    name: 'Krishna Kapoor',
+    email: 'krishna_kapoor_47422@gupta.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
