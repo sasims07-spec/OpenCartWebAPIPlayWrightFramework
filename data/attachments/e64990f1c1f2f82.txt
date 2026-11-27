@@ -1,0 +1,74 @@
+Response status: 200
+Response status text: OK
+[
+  {
+    id: 8723135,
+    name: 'Schema Test User c77b595a',
+    email: 'testuserc77b595a@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8723133,
+    name: 'Test User New fd0ea884',
+    email: 'testuserfd0ea884@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8723132,
+    name: 'UpdateUser40daed36',
+    email: 'updateuser40daed36@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8722352,
+    name: 'Test User Updated 5ca75884',
+    email: 'testupdatedd478e669@example.com',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8722351,
+    name: 'Test User New 52677d32',
+    email: 'testuser52677d32@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8722349,
+    name: 'Schema Test User 2733f871',
+    email: 'testuser2733f871@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8722346,
+    name: 'UpdateUsera3380d52',
+    email: 'updateusera3380d52@example.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8722347,
+    name: 'Test User New bb2f480f',
+    email: 'testuserbb2f480f@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8722315,
+    name: 'Deepa Singh',
+    email: 'deepa_singh_11931@verma.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8721966,
+    name: 'Nisha Agarwal',
+    email: 'nisha_agarwal_16514@menon.example',
+    gender: 'female',
+    status: 'active'
+  }
+]
